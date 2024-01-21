@@ -1,0 +1,104 @@
+// {
+//   "expo": {
+//     "name": "jango",
+//     "slug": "jango",
+//     "version": "1.0.0",
+//     "orientation": "portrait",
+//     "icon": "./assets/icon.png",
+//     "userInterfaceStyle": "light",
+//     "splash": {
+//       "image": "./assets/splash.png",
+//       "resizeMode": "contain",
+//       "backgroundColor": "#ffffff"
+//     },
+//     "assetBundlePatterns": [
+//       "**/*"
+//     ],
+//     "ios": {
+//       "supportsTablet": true,
+//       "infoPlist": {
+//         "NSCameraUsageDescription": "This app uses the camera for ... (provide a description)"
+//       },
+//       "bundleIdentifier": "com.muaaz03999.jango",
+//       "runtimeVersion": {
+//         "policy": "appVersion"
+//       }
+//     },
+//     "android": {
+//       "adaptiveIcon": {
+//         "foregroundImage": "./assets/adaptive-icon.png",
+//         "backgroundColor": "#ffffff"
+//       },
+//       "package": "com.muaaz03999.jango",
+//       "permissions": [
+//         "CAMERA"
+//       ],
+//       "runtimeVersion": "1.0.0"
+//     },
+//     "web": {
+//       "favicon": "./assets/favicon.png"
+//     },
+//     "extra": {
+//       "eas": {
+//         "projectId": "87d4312d-e125-4338-8040-afce2610d2b6"
+//       }
+//     },
+//     "owner": "muaaz03999",
+//     "updates": {
+//       "url": "https://u.expo.dev/87d4312d-e125-4338-8040-afce2610d2b6"
+//     }
+//   }
+// }
+{
+  "expo": {
+    "name": "jango",
+    "slug": "jango",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera for ... (provide a description)"
+      },
+      "bundleIdentifier": "com.muaaz03999.jango",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.muaaz03999.jango",
+      "permissions": ["CAMERA"],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBBDWwQdz0vsbs5g3V6oo9Nty2H3T4X10A"
+          
+        }
+      },
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87d4312d-e125-4338-8040-afce2610d2b6"
+      }
+    },
+    "owner": "muaaz03999",
+    "updates": {
+      "url": "https://u.expo.dev/87d4312d-e125-4338-8040-afce2610d2b6"
+    }
+  }
+}
